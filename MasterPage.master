@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="style/style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <div>
+        <nav>
+		    <ul>
+			    <li><a href="index.html">Home</a></li>
+			    <li><a href="registration.html">Register</a></li>
+			    <li><a href="order.html">Report an Accident</a></li>
+				<li><a href="order.html">View Accidents</a></li>
+			    <li><a href="features.html">Statistics</a></li>
+                <li class="masterNavLink"><a href="features.html">Master Login</a></li>
+                <li class="masterNavLink"><a href="features.html">Member Login</a></li>
+		    </ul>
+		</nav>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <footer>	
+			<br />
+			<div class="info">
+				<p>STAY CONNECTED WITH US</p>
+				<img src="style/social.jpg" alt="social logo"/>
+			</div>	
+			<p>&#64; <a href="mailto:contact@rdasrilanka.com"> contact@rdasrilanka.com</a></p>
+			<p>&#9742; <a href="tel:383693472"> 0383693472</a></p>
+			<p>&#9993;  45, Garden Street, Colombo 4, Sri Lanka</p>
+			<p class="copyrightText">&#169; 2020 RDA in association with Sri Lanka Police</p>
+		</footer>
+    </div>
+    
+</body>
+</html>

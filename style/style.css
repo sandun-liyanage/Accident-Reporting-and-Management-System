@@ -1,0 +1,74 @@
+/*styling navigation*/
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+/*styling navigation*/
+nav ul li{
+	float: left;
+}
+
+/*styling navigation*/
+nav ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-size: 18px;
+	border-radius: 4px;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav ul li a:hover{
+	color: red;
+}
+
+.masterNavLink{
+	float: right;
+}
+
+
+
+/*footer*/
+footer{			
+	clear: both;
+	background-color: #333;
+	text-align: center;
+	padding: 25px;
+}
+
+.info{				
+	padding-top: 5px;
+}
+
+.info img{	
+	width: 120px;
+	height: auto;
+	padding: 0;
+}
+
+.copyrightText{		
+	font-size: 12px;
+	padding-bottom: 5px;
+	color: white;
+}
+
+footer p{								
+	margin: 10px;
+	color: white;
+}
+
+footer a {
+	color: dodgerblue;		
+}
+
+
+
+
+/*---------index page---------*/
